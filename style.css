@@ -1,0 +1,25 @@
+.gib_bubble{
+    width: 31%;
+    padding: 14px 6px 6px 6px;
+    background: #0aa3e4;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+        margin-right:7px;}
+
+.rounded5,.textwidget{-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;}
+
+.gib_bubble span{font-weight:normal !important;font-size:10px;padding:0px !important;margin:0px !important}
+
+.purp {    background: #6667f3;}
+.greenbg{background:#72af06}
+
+.steam_stuff img{margin:0px 5px 5px 0px;display:inline-block;border:1px solid #c5c5c5}
+.steam_stuff{margin:15px 0px 0px 0px;text-align:center}
+
+.gib_button{padding:5px 15px;background:    #7289da;margin-top:10px;color:#fff; font-size:15px;transition: all .5s ease;display:block}
+.gib_button:hover{background:#555}
