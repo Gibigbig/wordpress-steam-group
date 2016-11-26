@@ -19,9 +19,14 @@ A widget that shows important information of a community's steam group for wordp
 
 5) Edit the following variables in the steam.php file:
 
-<pre>$_STEAMAPI = ""; 
-$_STEAMGROUP = "";
-$_MEMBERCOUNT = 23;
+<pre>$_STEAMAPI = ""; // apikey
+$_STEAMGROUP = ""; // steam group url
+$_MEMBERCOUNT = 23; //numbers of member avatars to show in the widget
 </pre>
 
 6) You're done :)
+
+#Performance
+
+This widget uses two requests on the PHP side and one request on the clientside.
+The user will call the file <b>steam.php</b> using <b>script.js</b> which will make two calls to steam, one getting all the group data, and another <b><font color="red">single</font></b> request getting <b><font color="red">all</font></b> user data for the amount of members specificed. This datawould be avatar link, steam name and profile link, though other information is available through the steam API.
