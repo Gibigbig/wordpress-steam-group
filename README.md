@@ -3,7 +3,7 @@ A widget that shows important information of a community's steam group for wordp
 
 # Demo
 
-http://www.otakuni.com/imgcdn/images/screenshot_from_2016-11-26_16:47:43-1480196895.png
+<img src="http://www.otakuni.com/imgcdn/images/screenshot_from_2016-11-26_16:47:43-1480196895.png" />
 
 # Instructions
 
