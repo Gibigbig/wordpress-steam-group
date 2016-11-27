@@ -55,6 +55,6 @@ foreach ($json_decoded->response->players as $player)
         ';
 }    
 
-echo '<a href="'.$_STEAMAPI.'" target="_blank"><div class="wpd-info gib_button rounded5">Join Our Steam Community!</div></a>';
+echo '<a href="'.$_STEAMGROUP.'" target="_blank"><div class="wpd-info gib_button rounded5">Join Our Steam Community!</div></a>';
 
 echo '</div>';
